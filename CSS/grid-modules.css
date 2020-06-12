@@ -1,0 +1,19 @@
+@media only screen and (min-width: 500px) {
+    body {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    main {
+        display: grid;
+        width: 600px;
+        height: 100px;
+        margin: 0px;
+        grid-template-columns: repeat (6,40);
+        grid-template-rows: 100px 200px 250px 150px 150px;
+    }
+
+    div{
+        border:  2px; 
+    }
+/* test test test test ets ttest etst test test test test ets tets  */
